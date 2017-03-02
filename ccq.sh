@@ -9,6 +9,7 @@ osascript -e 'quit app "Photoshop CC"'
 #   break
 # done
 
+# This is an inelegant workaround for issue with the above while loop
 sleep 3
 
-open -a "Adobe Photoshop CC 2017" "./warehouse_ash.psd"
+open -a "Adobe Photoshop CC 2017" "./mikael-cho-214358.jpg"
