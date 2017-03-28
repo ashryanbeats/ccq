@@ -17,8 +17,6 @@ if [ -z "$1" ]
 
     # This is an inelegant workaround for issue with the above while loop
     sleep 8
-
-    open -a "Adobe Photoshop CC 2017"  $path$filename
 fi
 
 while [ "$1" != "" ] # loop through args
@@ -28,6 +26,8 @@ do
   case $ARG in
     -f) # force
       kill -9 $(pgrep Photoshop)
+
+			sleep 2
 
       shift
       ;;
