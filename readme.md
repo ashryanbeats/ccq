@@ -1,11 +1,11 @@
 # ccq
 
-`ccq` quits Photoshop and relaunches it with a file, all from the command line, a frequent and tedious maneuver when developing CEP panels.
+`ccq` quits Photoshop and relaunches it with a file, all from the command line, a frequent and tedious maneuver when developing [CEP panels](https://github.com/adobe-CEP/).
 
 ## Limitations
 
 - macOS only (reliance on `osascript`)
-- bash (reliance on `$BASH_SOURCE`)
+- bash only (reliance on `$BASH_SOURCE`)
 
 ## Usage
 
