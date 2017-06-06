@@ -13,6 +13,10 @@ For now, you'll need to download and execute the script directly (`./path/to/ccq
 
 Use the `-f` flag to kill Photoshop. Use wisely; this is dangerous.
 
+## Task runners
+
+Check the `task-runners` directory for ideas on how to use this script with task runners.
+
 ## Included image
 
 The included image comes from Unsplash.com, and is licensed under Creative Commons Zero, as noted here:

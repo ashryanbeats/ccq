@@ -1,7 +1,7 @@
 #!/bin/sh
 script=$BASH_SOURCE
 path=${script%/*}
-filename="/mikael-cho-214358.jpg"
+filename="/res/example-image.jpg"
 appnamefull="Adobe Photoshop CC 2017"
 appnameshort="Photoshop CC"
 
