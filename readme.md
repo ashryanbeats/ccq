@@ -17,6 +17,10 @@ Use the `-f` flag to kill Photoshop. Use wisely; this is dangerous.
 
 Check the `task-runners` directory for ideas on how to use this script with task runners.
 
+Here's an example of using `ccq` with gulp:
+
+![](res/ccq.gif) 
+
 ## Included image
 
 The included image comes from Unsplash.com, and is licensed under Creative Commons Zero, as noted here:
