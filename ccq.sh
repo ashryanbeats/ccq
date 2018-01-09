@@ -2,7 +2,7 @@
 script=$BASH_SOURCE
 path=${script%/*}
 filename="/res/example-image.jpg"
-appnamefull="Adobe Photoshop CC 2017"
+appnamefull="Adobe Photoshop CC 2018"
 appnameshort="Photoshop CC"
 
 if pgrep -xq -- "${appnamefull}"; then
