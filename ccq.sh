@@ -21,7 +21,7 @@ if pgrep -xq -- "${appnamefull}"; then
 	    # done
 
 	    # This is an inelegant workaround for issue with the above while loop
-	    sleep 8
+	    sleep 5
 	fi
 
 	while [ "$1" != "" ] # loop through args
@@ -46,3 +46,21 @@ if pgrep -xq -- "${appnamefull}"; then
 fi
 
 open -a "${appnamefull}" $path$filename
+
+sleep 6
+
+# The following opens a location in the default browser. Chrome is my default browser this works for me. 
+# I ran into a very complicated error with Sierra being unable to find available browsers, so I don't invoke Chrome directly here.
+osascript -e 'open location "http://localhost:8088"
+			tell application "Google Chrome" to activate
+			delay 1
+			tell application "System Events" to keystroke "j" using {option down, command down}
+			tell application "Google Chrome" to activate
+			delay 1
+			tell application "System Events" to keystroke tab
+			delay 1
+			tell application "System Events" to keystroke return'
+echo "done!"
+
+#osascript -e 'activate application "${appnamefull}"'
+
