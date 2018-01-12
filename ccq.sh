@@ -62,5 +62,6 @@ osascript -e 'open location "http://localhost:8088"
 			tell application "System Events" to keystroke return'
 echo "done!"
 
+# Optionally, activate Photoshop again to bring it to the foreground:
 #osascript -e 'activate application "${appnamefull}"'
 
